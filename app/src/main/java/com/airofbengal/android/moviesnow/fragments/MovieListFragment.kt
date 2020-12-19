@@ -17,6 +17,8 @@ import com.airofbengal.android.moviesnow.R
 import com.airofbengal.android.moviesnow.models.MovieItem
 import com.airofbengal.android.moviesnow.models.MovieItemViewModel
 import com.squareup.picasso.Picasso
+import java.text.SimpleDateFormat
+import java.util.*
 
 private const val TAG = "MovieListFragment"
 
@@ -85,7 +87,7 @@ class MovieListFragment: Fragment() {
         }
 
         override fun onClick(v: View?) {
-            TODO("Not yet implemented")
+
         }
 
     }
